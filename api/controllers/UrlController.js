@@ -1,7 +1,7 @@
 const Url = require('../models/Url');
 const mongoose = require('mongoose');
 
-const webhost = 'https://encode-url.herokuapp.com/';
+const webhost = 'https://encode-url.herokuapp.com';
 
 function shorten(req, res) {
   if (req.body.url) {
